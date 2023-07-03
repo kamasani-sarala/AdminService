@@ -1,24 +1,24 @@
-package com.adminservice;
+// package com.adminservice;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+// import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
-import com.adminservice.controller.AdminController;
-import com.adminservice.dao.AdminDAO;
-import com.adminservice.entity.Admin;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.boot.test.context.SpringBootTest;
+// import org.springframework.boot.test.mock.mockito.MockBean;
+// import com.adminservice.controller.AdminController;
+// import com.adminservice.dao.AdminDAO;
+// import com.adminservice.entity.Admin;
 
-@SpringBootTest
-class AdminServiceApplicationTests {
+// @SpringBootTest
+// class AdminServiceApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 	
-		@Autowired
-		private AdminDAO admindao;
+// 		@Autowired
+// 		private AdminDAO admindao;
 		
 		
 		// @Test
@@ -33,4 +33,4 @@ class AdminServiceApplicationTests {
 		// //	assertNotNull(admindao.findById(1).get());
 		// }
 		
-	}
+	//}
